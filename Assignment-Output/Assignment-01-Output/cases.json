@@ -1,0 +1,16 @@
+[
+  {
+    "image": "/share_2/users/umair_nawaz/Mine/CV8502/A1/dataset/HAM10000/HAM10000_images_part_1/ISIC_0025316.jpg",
+    "overlay": "Assignment-Output/Assignment-01-Output/case_studies/ISIC_0025316_cam_alt.png",
+    "y_true": "mel",
+    "y_pred": "nv",
+    "confidence": 0.9316644668579102
+  },
+  {
+    "image": "/share_2/users/umair_nawaz/Mine/CV8502/A1/dataset/HAM10000/HAM10000_images_part_1/ISIC_0028760.jpg",
+    "overlay": "Assignment-Output/Assignment-01-Output/case_studies/ISIC_0028760_cam_alt.png",
+    "y_true": "mel",
+    "y_pred": "nv",
+    "confidence": 0.9214457273483276
+  }
+]

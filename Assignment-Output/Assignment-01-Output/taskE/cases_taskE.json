@@ -1,0 +1,50 @@
+[
+  {
+    "image": "/share_2/users/umair_nawaz/Mine/CV8502/A1/dataset/HAM10000/HAM10000_images_part_1/ISIC_0025316.jpg",
+    "overlay": "Assignment-Output/Assignment-01-Output/taskE/case_1.png",
+    "y_true": "mel",
+    "y_pred": "nv",
+    "confidence": 0.9316644668579102,
+    "top3": [
+      [
+        "nv",
+        0.9316644668579102
+      ],
+      [
+        "mel",
+        0.017070578411221504
+      ],
+      [
+        "bkl",
+        0.01517099142074585
+      ]
+    ],
+    "diagnosis": "Scale/blur-induced error",
+    "mitigation": "Use anti-aliasing on resize; consider higher input resolution or mild super-resolution; stronger blur augmentation.",
+    "residual_risk": "Under low-resolution or out-of-focus images, texture-similar lesions remain confusable."
+  },
+  {
+    "image": "/share_2/users/umair_nawaz/Mine/CV8502/A1/dataset/HAM10000/HAM10000_images_part_1/ISIC_0028760.jpg",
+    "overlay": "Assignment-Output/Assignment-01-Output/taskE/case_2.png",
+    "y_true": "mel",
+    "y_pred": "nv",
+    "confidence": 0.9214457273483276,
+    "top3": [
+      [
+        "nv",
+        0.9214457273483276
+      ],
+      [
+        "vasc",
+        0.025347057729959488
+      ],
+      [
+        "mel",
+        0.02275853231549263
+      ]
+    ],
+    "diagnosis": "Scale/blur-induced error",
+    "mitigation": "Use anti-aliasing on resize; consider higher input resolution or mild super-resolution; stronger blur augmentation.",
+    "residual_risk": "Under low-resolution or out-of-focus images, texture-similar lesions remain confusable."
+  }
+]
