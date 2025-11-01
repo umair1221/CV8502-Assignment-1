@@ -89,7 +89,7 @@ The notebook will:
 
 ---
 
-## 📊 Key results (from your latest run)
+## 📊 Key results
 
 **Calibration**
 Fitted temperature **T = 0.8212406635**
